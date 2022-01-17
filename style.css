@@ -116,8 +116,27 @@ hr {
     align-items: center;
     justify-content: center;
     width: 50%;
+    gap: 20px;
+}
+
+.timeline-parent h3 {
+    flex-basis: 10%;
+    margin: 0 0;
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 .timeline-parent p {
-    flex-grow: 4;
+    flex-basis: calc(90% - 20px);
+    margin: 0 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	.timeline-parent {
+		width: 90%;
+	}
 }
