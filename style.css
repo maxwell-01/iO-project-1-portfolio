@@ -63,10 +63,6 @@ p {
 
 header {
     background-color: #ff8000;
-}
-
-
-header {
     padding-top: 25px;
     padding-bottom: 25px;
     min-height: 60vh;
@@ -106,4 +102,22 @@ hr {
 
 .timeline-section {
     background-color: #ff8000;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.timeline-parent {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.timeline-parent p {
+    flex-grow: 4;
 }
