@@ -30,7 +30,6 @@ p {
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 400;
-
 }
 
 .nav-bar a:link, .nav-bar a:visited {
@@ -103,4 +102,8 @@ header {
 
 hr {
     border: 1px solid #DDDDDD
+}
+
+.timeline-section {
+    background-color: #ff8000;
 }
