@@ -183,7 +183,7 @@ img {
     border-radius: 5px;
     background-color: #ffffff;
     border-radius: 3px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .more-projects-link:hover {
@@ -192,19 +192,52 @@ img {
     border-color: #ff8000;
 }
 
+footer {
+    background-color: #001433;
+    padding: 40px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-item a {
+    color:#DDDDDD;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+}
+
+.footer-item a:hover {
+    color: #ff8000;
+}
 
 
 @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
     .recent-projects-parent {
         display: flex;
         flex-direction: column;
+        align-items: center;
 	}
     .project-card {
         padding: 20px 0;
         border-bottom: 1px solid #DDDDDD;
         align-items: center;
+        width: 80%;
     }
-    .project-card img {
-        width: 60%;
-    }
+
 }
