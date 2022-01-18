@@ -284,11 +284,14 @@ footer div {
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     h2 {
-        font-size: 6rem;
+        font-size: 5rem;
+    }
+    .nav-bar{
+        flex-direction: column;
     }
     .recent-projects-parent {
         display: flex;
