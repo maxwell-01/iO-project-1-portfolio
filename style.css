@@ -18,6 +18,11 @@ p {
     font-size: 1.8rem;
 }
 
+a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -33,7 +38,6 @@ p {
 
 .nav-bar a:link, .nav-bar a:visited {
     color: #ff8000;
-    text-decoration: none;
 }
 
 .nav-bar a:hover {
@@ -90,9 +94,9 @@ header {
     border-top: 1px solid #DDDDDD;
 }
 
-.intro-section-image {
-    max-width:100%;
-    max-height:100%;
+img {
+    width:100%;
+    height:100%;
 }
 
 .timeline-section {
@@ -129,4 +133,111 @@ header {
     margin: 0 0;
     font-size: 2rem;
     font-weight: normal;
+}
+.recent-projects-section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recent-projects-parent {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 800px;
+}
+
+.project-card {
+    flex-basis: 33%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project-card img {
+    object-fit: cover;
+    height: 30vh;
+}
+
+.project-card a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ff8000;
+    transition: all 0.5s;
+}
+
+.project-card a:hover {
+    color: #001433;
+    text-decoration: underline;
+}
+
+.more-projects-link {
+    margin: 50px 20px;
+    padding: 25px 45px;
+    color: #001433;
+    border: 2px solid #001433;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+
+.more-projects-link:hover {
+    color: #ffffff;
+    background-color: #ff8000;
+    border-color: #ff8000;
+}
+
+footer {
+    background-color: #001433;
+    padding: 40px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-item a {
+    color:#DDDDDD;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+}
+
+.footer-item a:hover {
+    color: #ff8000;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+    .recent-projects-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+    .project-card {
+        padding: 20px 0;
+        border-bottom: 1px solid #DDDDDD;
+        align-items: center;
+        width: 80%;
+    }
+
 }
