@@ -1,0 +1,132 @@
+html {
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 10rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 7rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ff8000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.nav-bar a:link, .nav-bar a:visited {
+    color: #ff8000;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: #001433;
+    text-decoration: underline;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.nav-menu-item {
+    margin: 0.2em;
+    padding: 0.6em;
+}
+
+.nav-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+}
+
+header {
+    background-color: #ff8000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-section {
+    padding: 50px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 50px;
+    color: #001433;
+}
+
+.intro-section div {
+    width: 300px;
+}
+
+.intro-section-message {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #DDDDDD;
+}
+
+.intro-section-image {
+    max-width:100%;
+    max-height:100%;
+}
+
+.timeline-section {
+    padding: 50px 20px;
+    background-color: #ff8000;
+    color: #ffffff;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.timeline-parent {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 800px;
+    gap: 20px;
+}
+
+.timeline-parent div {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.timeline-parent h3 {
+    margin: 0 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.timeline-parent p {
+    margin: 0 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
