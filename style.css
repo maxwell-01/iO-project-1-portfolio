@@ -1,7 +1,6 @@
 html {
     font-size: 10px;
     font-family: 'Lato', sans-serif;
-    font-style: normal;
 }
 
 h1 {
@@ -21,7 +20,7 @@ p {
 
 .nav-bar {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
@@ -65,20 +64,19 @@ header {
     background-color: #ff8000;
     padding-top: 25px;
     padding-bottom: 25px;
-    min-height: 60vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .intro-section {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 50px 20px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px 50px;
     color: #001433;
 }
 
@@ -89,6 +87,7 @@ header {
 .intro-section-message {
     padding-top: 30px;
     padding-bottom: 30px;
+    border-top: 1px solid #DDDDDD;
 }
 
 .intro-section-image {
@@ -96,15 +95,10 @@ header {
     max-height:100%;
 }
 
-hr {
-    border: 1px solid #DDDDDD
-}
-
 .timeline-section {
+    padding: 50px 20px;
     background-color: #ff8000;
     color: #ffffff;
-    padding-top: 25px;
-    padding-bottom: 25px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -112,31 +106,27 @@ hr {
 }
 .timeline-parent {
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+    flex-flow: column wrap;
+    align-items: flex-start;
     justify-content: center;
-    width: 50%;
+    max-width: 800px;
+    gap: 20px;
+}
+
+.timeline-parent div {
+    display: flex;
+    flex-flow: row nowrap;
     gap: 20px;
 }
 
 .timeline-parent h3 {
-    flex-basis: 10%;
     margin: 0 0;
     font-size: 2rem;
     font-weight: normal;
 }
 
 .timeline-parent p {
-    flex-basis: calc(90% - 20px);
     margin: 0 0;
     font-size: 2rem;
     font-weight: normal;
-}
-
-
-
-@media screen and (max-width: 800px) {
-	.timeline-parent {
-		width: 90%;
-	}
 }
