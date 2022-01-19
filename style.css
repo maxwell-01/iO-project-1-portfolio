@@ -82,19 +82,19 @@ header {
     width: 50%;
 }
 
-.intro-section-message-div {
+.intro-section-message {
     margin: 0 20px;
     max-width: 400px;
 }
 
-.intro-section-message {
+.intro-section-message p {
     padding-top: 30px;
     padding-bottom: 30px;
     border-top: 1px solid #DDDDDD;
 }
 
 .intro-section img {
-    width:50%;
+    width: 50%;
 }
 
 .timeline-section {
@@ -157,7 +157,7 @@ header {
 
 .project-card img {
     object-fit: cover;
-    width:100%;
+    width: 100%;
     aspect-ratio: 4/3;
 }
 
