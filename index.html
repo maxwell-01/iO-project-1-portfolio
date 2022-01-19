@@ -15,7 +15,7 @@
 
         <div class="nav-menu"> 
             <div class="nav-menu-item"> 
-                <a href="#contact-section">Contact</a>
+                <a href="#projects-section">Projects</a>
             </div>
 
             <div class="nav-menu-item"> 
@@ -51,17 +51,12 @@
 
         <section class="intro-section"> 
 
-            <div>
+            <div class="intro-section-message-div">
                 <h2>Hi, I'm Max.</h2>
                 <p class="intro-section-message">My dream is to combine professional technology and engineering skills to help build a future that’s sustainable and allows people to spend time doing what’s most important to them.</p>
 
             </div>
-
-            <div> 
-                <img class="intro-section-image" src="maxwell-newton-profile-picture.jpeg" alt="A profile picture of Maxwell Newton out on a hike">
-
-            </div>
-
+            <img class="intro-section-image" src="maxwell-newton-profile-picture.jpeg" alt="A profile picture of Maxwell Newton out on a hike">
         </section>
 
         <section class="timeline-section">
@@ -122,12 +117,14 @@
             </div>
         </section>
 
-        <section class="recent-projects-section">
+        <section id="projects-section" class="recent-projects-section">
             <h2>Recent Projects</h2>
             <div class="recent-projects-parent">
 
                 <div class="project-card">
+                    <div class="project-card-img">
                         <img src="Affine-Cypher.png" alt="Image showing code editor with the words Affine-Cypher">
+                    </div>    
                         <div>
                             <p>An Affine Cypher in PHP. Expanded to allow upper and lower case letters as well as punctuation.</p>
                             <a href="https://github.com/maxwell-01/affine_cipher_php" target="_blank">Open Affine Cypher...</a> 
@@ -135,7 +132,9 @@
                     </div>
 
                 <div class="project-card">
-                        <img src="FizzBuzz.png" alt="Image showing code editor with the word FizzBuzz">
+                        <div class="project-card-img">
+                            <img src="FizzBuzz.png" alt="Image showing code editor with the word FizzBuzz">
+                        </div>
                         <div>
                             <p>A small project solving FizzBuzz in PHP.</p>
                             <a href="https://github.com/maxwell-01/FizzBuzz_php" target="_blank">Open FizzBuzz...</a> 
@@ -143,7 +142,9 @@
                 </div>
 
                 <div class="project-card">
-                    <img src="TicTacToe.png" alt="Image showing code editor with the word TicTacToe">
+                    <div class="project-card-img">
+                        <img src="TicTacToe.png" alt="Image showing code editor with the word TicTacToe">
+                    </div>
                     <div>
                         <p>Recreated the TicTacToe game in Python with a simple graphical interface.</p>
                         <a href="https://github.com/maxwell-01/TicTacToe_python" target="_blank">Open TicTacToe...</a> 
@@ -151,24 +152,19 @@
                 </div>
 
             </div>
-            <a href="#" class="more-projects-link" target="_blank">View more projects on GitHub</a>
+            <a href="https://github.com/maxwell-01" class="more-projects-link" target="_blank">View more projects on GitHub</a>
 
         </section>
 
-        <section id="contact-section" class="contact-section">
+        <section class="contact-section">
             <div class="contact-header">
                 <p>Come and say hello</p>
                 <h2>Get In Touch</h2>
             </div>
-
-            <form class="contact-form">
-                <div>
-                    <input id="name" class="contact-input" type="text" placeholder="enter name...">
-                    <input id="email" class="contact-input" type="email" placeholder="enter email...">
-                </div>
-                <textarea id="contact-message" class="contact-input" name="contact-message" placeholder="enter message..." rows="8" cols="50"></textarea>
-                <input type="submit" class="contact-form-submit-button" value="Send">
-            </form>
+            
+            <div>
+                <p>Please contact me using the LinkedIn link below</p>
+            </div>
         </section>
 
     </main>
