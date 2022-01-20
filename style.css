@@ -92,7 +92,10 @@ header {
 }
 
 .intro-section img {
-    width: 50%;
+    width: 100%;
+    min-height: 450px;
+    display: block;
+    object-fit: cover;
 }
 
 .timeline-section {
@@ -156,7 +159,7 @@ header {
 .project-card img {
     object-fit: cover;
     width: 100%;
-    aspect-ratio: 4/3;
+    min-height: 500px;
 }
 
 .project-card a {
@@ -256,6 +259,7 @@ footer div {
     }
     .intro-section img {
         width: 100%;
+        min-height: auto;
     }
     .recent-projects-parent {
         flex-direction: column;
