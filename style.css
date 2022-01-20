@@ -96,7 +96,7 @@ header {
 }
 
 .timeline-section {
-    padding: 25px 20px;
+    padding: 25px 5%;
     background-color: #ff8000;
     color: #ffffff;
     display: flex;
@@ -135,7 +135,7 @@ header {
 }
 
 .recent-projects-section {
-    padding: 50px 20px;
+    padding: 50px 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,7 +279,6 @@ footer div {
         width: 100%;
     }
     .recent-projects-parent {
-        padding: 0 5%;
         flex-direction: column;
         align-items: center;
 	}
