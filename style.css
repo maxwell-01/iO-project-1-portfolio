@@ -92,7 +92,10 @@ header {
 }
 
 .intro-section img {
-    width: 50%;
+    width: 100%;
+    min-height: 450px;
+    display: block;
+    object-fit: cover;
 }
 
 .timeline-section {
@@ -156,7 +159,7 @@ header {
 .project-card img {
     object-fit: cover;
     width: 100%;
-    aspect-ratio: 4/3;
+    min-height: 500px;
 }
 
 .project-card a {
@@ -189,12 +192,6 @@ header {
     border-color: #ff8000;
 }
 
-.contact-form-submit-button:hover {
-    color: #ffffff;
-    background-color: #ff8000;
-    border-color: #ffffff;
-}
-
 .contact-section {
     padding: 50px 20px;
     background-color: #ff8000;
@@ -212,21 +209,6 @@ header {
 
 .contact-section h2 {
     margin-top: 0;
-}
-
-.contact-input {
-    display: inline-block;
-    border: none;
-    border-radius: 2px;
-}
-
-input {
-    width: 190px;
-    min-height: 35px;
-
-}
-textarea {
-    width: 100%;
 }
 
 footer {
@@ -277,6 +259,7 @@ footer div {
     }
     .intro-section img {
         width: 100%;
+        min-height: auto;
     }
     .recent-projects-parent {
         flex-direction: column;
