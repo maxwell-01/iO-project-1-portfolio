@@ -159,7 +159,7 @@ header {
 .project-card img {
     object-fit: cover;
     width: 100%;
-    min-height: 500px;
+    aspect-ratio: 4/3;
 }
 
 .project-card a {
