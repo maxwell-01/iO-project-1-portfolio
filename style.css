@@ -21,7 +21,7 @@ p {
   font-size: 1.8rem;
 }
 
-a, .contact-form-submit-button {
+a {
   text-decoration: none;
   transition: all 0.5s;
 }
@@ -36,11 +36,9 @@ a, .contact-form-submit-button {
   font-size: 1.2rem;
   text-transform: uppercase;
 }
-
 .nav-bar a:link, .nav-bar a:visited {
   color: #ff8000;
 }
-
 .nav-bar a:hover {
   color: #001453;
   text-decoration: underline;
@@ -75,7 +73,6 @@ header {
   justify-content: flex-end;
   color: #001453;
 }
-
 .intro-section div {
   width: 50%;
 }
@@ -84,14 +81,12 @@ header {
   margin: 0 20px;
   max-width: 400px;
 }
-
 .intro-section-message p {
   padding-top: 30px;
   padding-bottom: 30px;
   border-top: 1px solid #DDDDDD;
 }
-
-.intro-section img {
+.intro-section-message img {
   width: 100%;
   min-height: 450px;
   display: block;
@@ -118,19 +113,16 @@ header {
   align-items: flex-start;
   gap: 20px;
 }
-
 .timeline-parent div {
   display: flex;
   flex-flow: row nowrap;
   gap: 20px;
 }
-
 .timeline-parent h3 {
   margin: 0 0;
   font-size: 2rem;
   font-weight: normal;
 }
-
 .timeline-parent p {
   margin: 0 0;
   font-size: 2rem;
@@ -154,26 +146,23 @@ header {
   display: flex;
   flex-direction: column;
 }
-
 .project-card img {
   object-fit: cover;
   width: 100%;
   aspect-ratio: 4/3;
 }
-
 .project-card a {
   text-decoration: none;
   font-size: 1.5rem;
   color: #ff8000;
   transition: all 0.5s;
 }
-
 .project-card a:hover {
   color: #001453;
   text-decoration: underline;
 }
 
-.more-projects-link, .contact-form-submit-button {
+.more-projects-link {
   margin: 50px 20px;
   padding: 25px 45px;
   color: #001453;
@@ -184,30 +173,10 @@ header {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
 .more-projects-link:hover {
   color: #ffffff;
   background-color: #ff8000;
   border-color: #ff8000;
-}
-
-.contact-section {
-  padding: 50px 20px;
-  background-color: #ff8000;
-  color: #ffffff;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-}
-
-.contact-header {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-}
-
-.contact-section h2 {
-  margin-top: 0;
 }
 
 footer {
@@ -216,7 +185,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-
 footer div {
   display: flex;
   gap: 25px;
@@ -229,7 +197,6 @@ footer div {
   font-weight: 700;
   letter-spacing: 0.25rem;
 }
-
 .footer-item a:hover {
   color: #bdbdbd;
 }
