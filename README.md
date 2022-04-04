@@ -3,4 +3,5 @@ Week 2 project to create a portfolio website using only HTML and CSS
 
 Please see the live site here:
 
-maxwellnewton.co.uk
+
+[maxwellnewton.co.uk](https://www.maxwellnewton.co.uk)
