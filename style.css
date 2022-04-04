@@ -109,6 +109,7 @@ header p {
 
 .recent-projects-section {
   padding: 25px 20px;
+  margin: 25px 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -124,6 +125,9 @@ header p {
   width: 40%;
   left: 30%;
   border-top: 1px solid #ffffff80;
+}
+.recent-projects-section .button {
+  margin: 50px 0;
 }
 
 .recent-projects-parent {
@@ -174,6 +178,9 @@ header p {
   align-items: center;
   justify-content: center;
   min-height: 70vh;
+}
+.contact-section h2 {
+  margin-top: 0;
 }
 .contact-section div {
   display: flex;
