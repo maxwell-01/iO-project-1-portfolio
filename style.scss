@@ -12,15 +12,23 @@ html {
     color: $brand-white;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
 h1 {
-    color: $brand-white;
+    color: $brand-lightblue;
     font-weight: 700;
     font-size: 7rem;
     text-align: left;
     line-height: 10rem;
     margin: 30px 0;
     span {
-        color: $brand-lightblue;
+        color: $brand-white;
     }
 }
 
@@ -39,6 +47,7 @@ h3 {
 
 p {
     font-size: 1.8rem;
+    line-height: 3rem;
 }
 
 a {
@@ -47,6 +56,10 @@ a {
 }
 
 .nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: $brand-blue;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,10 +77,6 @@ a {
     }
 }
 
-.nav-menu {
-
-}
-
 .nav-menu-item {
     margin: 0.2em;
     padding: 0.6em;
@@ -80,7 +89,7 @@ a {
 }
 
 header {
-    padding-left: 100px;
+    padding: 100px;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -132,7 +141,7 @@ header {
 }
 
 .project-card {
-    width: 370px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -161,9 +170,6 @@ header {
 
 .project-description {
     margin-top: 30px;
-    p {
-        line-height: 3rem;
-    }
 }
 
 .contact-section {
@@ -234,7 +240,7 @@ footer {
 
 .footer-item {
     a {
-        color:$brand-blue;
+        color:$brand-orange;
         font-size: 1.5rem;
         text-transform: uppercase;
         font-weight: 700;
@@ -260,6 +266,9 @@ footer {
     }
     .nav-bar{
         flex-direction: column;
+    }
+    header {
+        padding: 20px;
     }
     .recent-projects-parent {
         flex-direction: column;
