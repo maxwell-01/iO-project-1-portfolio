@@ -114,12 +114,12 @@ header {
 }
 
 .recent-projects-section {
-    padding: 50px 5%;
+    padding: 25px 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 10px;
     position: relative;
     &::before {
         content: '';
@@ -141,7 +141,7 @@ header {
 }
 
 .project-card {
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
 }
 
@@ -243,7 +243,6 @@ footer {
         color:$brand-orange;
         font-size: 1.5rem;
         text-transform: uppercase;
-        font-weight: 700;
         letter-spacing: 0.25rem;
         &:hover {
             color: $brand-lightblue;
